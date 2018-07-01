@@ -13,79 +13,60 @@ python3 computerVision.py "azure compute vision api key" "picture directry"
 # 写真を読み込ませるとこんな感じで出力されます。
 
 [読み込ませた画像]
-![エビフライトライアングル](./image/DSC_0431.jpg "航空機の写真")
+![](./image/DSC_1828.jpg "もみじの写真")
 
 ```
+"plant_leaves"
+"a close up of a tree"
+"plant_leaves"
 {
-    "requestId": "1459a2fd-8357-4e70-883a-6894eecabaa1",
-    "metadata": {
-        "width": 3000,
-        "height": 2000,
-        "format": "Jpeg"
-    },
     "description": {
         "captions": [
             {
-                "text": "a fighter jet flying through a blue sky",
-                "confidence": 0.8898904948822559
+                "confidence": 0.964949981247559,
+                "text": "a close up of a tree"
             }
         ],
         "tags": [
-            "outdoor",
-            "plane",
-            "flying",
-            "fighter",
-            "air",
-            "airplane",
-            "transport",
-            "aircraft",
-            "smoke",
-            "jet",
-            "military",
-            "blue",
-            "gray",
-            "high",
+            "plant",
+            "tree",
+            "maple",
+            "small",
             "large",
-            "silver",
+            "lit",
+            "sitting",
+            "white",
+            "close",
+            "green",
+            "black",
             "red",
-            "clear"
+            "hanging",
+            "table"
         ]
     },
+    "requestId": "532a1aed-4ed8-4302-bab9-5523f643ebeb",
     "color": {
-        "dominantColorForeground": "Grey",
-        "accentColor": "CA5201",
+        "dominantColorForeground": "Red",
+        "accentColor": "2A0802",
         "isBwImg": false,
-        "dominantColors": [],
-        "dominantColorBackground": "Grey"
+        "dominantColorBackground": "Red",
+        "dominantColors": [
+            "Red",
+            "Black",
+            "Brown"
+        ]
+    },
+    "metadata": {
+        "height": 2000,
+        "width": 3000,
+        "format": "Jpeg"
     },
     "categories": [
         {
-            "score": 0.97265625,
-            "name": "sky_object"
+            "score": 0.77734375,
+            "name": "plant_leaves"
         }
     ]
 }
-"a fighter jet flying through a blue sky"
-[
-    "outdoor",
-    "plane",
-    "flying",
-    "fighter",
-    "air",
-    "airplane",
-    "transport",
-    "aircraft",
-    "smoke",
-    "jet",
-    "military",
-    "blue",
-    "gray",
-    "high",
-    "large",
-    "silver",
-    "red",
-    "clear"
-]
-"sky_object"
 
 ```
